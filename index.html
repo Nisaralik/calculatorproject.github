@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="body">
+            <!-- <div class="output"></div> -->
+            <input type="text" id="screen">
+            <div>
+            <!-- <button class="btn" onclick="cleardisplay()">DEL</button> -->
+           <div class="buttons">
+            <div class="row">
+                <button class="btn" onclick="cleardisplay()">DEL</button>
+                <!-- <button class="btn1" onclick="Cleardisplay()">DE</button> -->
+                <button class="btn1" onclick="buttonclick('%')">%</button>
+                <button class="btn1" onclick="buttonclick('/')">/</button>
+
+            </div>
+            <div class="row">
+                <button class="btn2" onclick="buttonclick(7)">7</button>
+                <button class="btn2" onclick="buttonclick(8)">8</button>
+                <button class="btn2" onclick="buttonclick(9)">9</button>
+                <button class="btn2" onclick="buttonclick('*')">X</button>
+
+            </div>
+            <div class="row">
+                <button class="btn3" onclick="buttonclick(4)">4</button>
+                <button class="btn3" onclick="buttonclick(5)">5</button>
+                <button class="btn3" onclick="buttonclick(6)">6</button>
+                <button class="btn3" onclick="buttonclick('-')">-</button>
+
+            </div>
+            <div class="row">
+                <button class="btn4" onclick="buttonclick(1)">1</button>
+                <button class="btn4" onclick="buttonclick(2)">2</button>
+                <button class="btn4" onclick="buttonclick(3)">3</button>
+                <button class="btn4" onclick="buttonclick('+')">+</button>
+                
+            </div>
+            <div class="row">
+                <button class="btn5" onclick="buttonclick('00')">00</button>
+                <button class="btn5" onclick="buttonclick('0')">0</button>
+                <button class="btn5" onclick="buttonclick('.')">.</button>
+                <button class="btn6" onclick="equalclick('=')">=</button>
+
+            </div>
+            
+
+
+
+
+           </div>
+
+        </div>
+        <script src="calc.js"></script>
+    
+    </body>
+</html>
